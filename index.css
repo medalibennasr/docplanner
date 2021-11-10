@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* { 
+  
+  margin: 0;
+  padding: 0;
+}
+
+*{
+ 
+  font-family:"Roboto";
+}
+
+body {
+  margin: 0px 250px;
+}
+
+header {
+    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px 250px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 1px 1px #888888;
+
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 40%;
+  
+}
+
+li {
+  color: #ababab;
+}
+
+.active {
+  color: #00b39b;
+}
+
+.dropdown {
+  position: absolute;
+  background-color: white;
+  display: none;
+  width: 200px;
+  list-style: none;
+  padding: 20px;
+  left: 0;
+}
+.dropdown li {
+  padding: 10px;
+  /* background-color: #f1eded; */
+}
+
+.navigation-list li:hover {
+  color: #00b39b;
+}
+
+.dropdown li:hover {
+  background-color: #dadada4f;
+  color: #00b39b;
+}
+
+.dropdown-btn {
+  position: relative;
+}
+
+.dropdown-btn:hover .dropdown {
+  display: block;
+}
+
+/* .sticky {
+  background-color: turquoise;
+  position: sticky;
+  top: 150px;
+} */
+
+/***************  Informations section     ********************** */
+
+.informations {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.doctors {
+  background-color: #3d83df;
+}
+.patients {
+  background-color: #00ccb1;
+}
+.clinics {
+  background-color: #1b2734;
+}
+
+.card-style {
+  width: 28%;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  color: white;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-style img {
+  width: 30px;
+}
+
+select{
+  background-color: transparent;
+  border: transparent;
+  outline: 0;
+  font-size: 20px;
+}
+
+
+
+@media (max-width: 576px) { 
+
+    body{
+        background-color: white;
+    }
+
+    
+.informations {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+
+  .card-style {
+    width: 80%;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+  }
+
+
+ } 
+ footer {
+	text-align: center;
+    margin-top: 100px;
+    font-size: 12px;
+    color: #ababab;
+}
+.intro{
+   margin-top: 100px;
+}
+
+.logo_class {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+  }
+
+  .making{
+  text-align: center;
+  color:  #00b39b;
+  }
+  .information1 {
+   margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    color: #747474;
+  }
+  .p_company{
+  float: left;
+    width: 33%;
+    color: #00b39b;
+
+    
+  }
+  .company {
+      margin-top: 70px;
+      display: flex;
+      justify-content: space-between;
+      
+  }
+  .pic_company{
+    display: flex;
+    flex-wrap:wrap ;
+    
+
+    width: 67%;
+  
+  
+  }
+  
+  .one_company {
+    filter: grayscale(90%);
+  }
+  
+  
+ .one_company:hover
+   {
+   filter: none;
+  }
+  
+  
+
+  h3{
+  
+    color:  #00b39b;
+    }
+
+     .all {
+      
+      display: flex;
+
+    
+  }
+   .teslik {
+    padding: 50px;
+    
+    margin-top: 100px;
+    
+    background:#AFEEEE;
+    background-image: url(https://www.docplanner.com/img/sygnet.png) ;
+    background-repeat: no-repeat;
+    
+
+   }
+    
+  
+    
+
+    .four {
+  
+      width: 50%;
+      
+      
+      text-align: center;
+      flex-wrap:wrap 
+      
+    }
+
+    .biggest {
+      width: 50%;
+
+    }
+    .big_title {
+      margin-bottom: 30px;
+      color:  #00b39b;
+    }
+    .p_big {
+      color: #747474;
+
+    }
+
+    .Leader{
+      background:white;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    .million{
+      background:white;
+      margin-top: 20px;
+
+      border-radius: 10px;
+
+    }
+
+
+    
+    .unique{
+      background:white;
+      margin-top: 20px;
+      border-radius: 10px;
+      
+    }
+    .act_doctors{
+      background:white;
+      margin-top: 20px;
+      border-radius: 10px;
+      
+    }
+    .wefour{
+     
+    color: #747474;
+    
+    }
+
+    .improve {
+      
+      text-align: center;
+      
+        margin: 0px 180px;
+        margin-top: 100px;
+    
+    }
+
+    .improve_h {
+      color:  #00b39b;
+    }
+    .improve_p {
+      color: #747474;
+      margin-top: 30px;
+    }
+    .Join_us {
+      text-align: center;
+      margin-top: 80px;
+    }
+
+    .Join_us_b {
+    background-color:#3d83df;
+    margin-top: 30px;
+    color: white;
+    padding: 15px;
+   }
+    
+   .more {
+     margin-top: 100px;
+     
+     display: flex;
+      justify-content: space-between;
+      flex-wrap:wrap ;
+    }
+    .cntr {
+      color: black;
+    }
+    .b_cntr{
+      background-color:#3d83df;
+    
+      color: white;
+      padding: 7px;
+
+     }
+    .one {
+     
+    margin-top: 10px;
+    border-style: groove;
+    border-radius: 10px;
+    box-shadow : 3px ;
+   }
+   .one:hover:hover
+   {
+    box-shadow: 0px 0px 20px gray;
+   }
+
+   
